@@ -4,7 +4,7 @@
 
 Your application must satisfy the following basic constraints:
 
-- It must be based on `React` and initialized with `create-react-app` (or a suitable alternative like `create-next-app`, if you prefer).
+- It must be based on `React` and initialized with `create-react-app`.
 - It must apply the `react-kanban` library for logic related to Kanban interactions.
 - It must satisfy the acceptance criteria of all high-priority user stories (as defined below), plus one additional user story of your choosing. Any further work is optional.
 
