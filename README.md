@@ -20,12 +20,22 @@ You need to complete both parts to finish the challenge.
 For part 1 of our challenge, you will need to create a small React application with basic Kanban board capabilities. More specifically, you should demonstrate that:
 
 - [ ] You can read and work based on predefined requirements.
-  - Your work needs to be based on the user stories we have defined and prioritized, see `REQUIREMENTS.md` or the Issues of this Github project.
+  - Your work needs to be based on the user stories we have defined and prioritized, see the Issues of this Github project.
 - [ ] You can work with `git` and consistently apply version control in your workflow.
   - Ensure that you use proper and consistent commit messages and branch names, if applicable.
-- [ ] You can work with React and Javascript packages. You can know the most important principles of React and Web Development and can write high-quality code.
+- [ ] You can work with React and Javascript packages. You know the most important principles of React and Web Development and can write high-quality code.
   - Ensure that your code is readable and well-structured.
   - Ensure that you apply the proper abstractions to solve your problems.
+
+### Constraints
+
+Your application must satisfy the following basic constraints:
+
+- It must be based on `React` and initialized with `create-react-app`.
+- It must apply the `react-kanban` library for logic related to Kanban interactions.
+- It must satisfy the acceptance criteria of all high-priority user stories (as defined below), plus one additional user story of your choosing. Any further work is optional.
+
+Besides these basic requirements, you may use any libraries or tools you like. For example, you could apply libraries and frameworks like `Semantic UI` or `Material UI` to help with styling.
 
 ## Part 2: Questions
 
