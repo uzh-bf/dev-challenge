@@ -8,7 +8,7 @@ If you seek more information about us and what we work on at the DBF, check <htt
 
 When you apply for a job at our department, this will be the process:
 1. Solve challenge part 1: Create a small React app to show your technical abilities :robot:
-2. Solve challenge part 1: Answer 3 out of 5 questions to prove your knowledge :pencil2:
+2. Solve challenge part 2: Answer 3 out of 5 questions to prove your knowledge :pencil2:
 3. Send us the the results (of both parts) for a quick evaluation :outbox_tray:
 4. Everybody that successfully completes the challenge gets invited to a job interview :bell:
 5. If we feel like you fit in our team, we will hire you! :checkered_flag::moneybag:
