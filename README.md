@@ -13,12 +13,18 @@ When you apply for a job at our department, this will be the process:
 4. Everybody that successfully completes the challenge gets invited to a job interview :bell:
 5. If we feel like you fit in our team, we will hire you! :checkered_flag::moneybag:
 
+
+<br>
+
 ---
+
+<br>
+
+
 
 ## Challenge Part 1: Web Development with React
 
 For part 1 of our challenge, you will need to create a **small React application** with basic Kanban board capabilities (like Trello). By solving this challenge, you're demonstrating:
-
 - You can work with `git` and use version control in your workflow.
  - where possible, commit your work regularly
 - You can work with React and Javascript packages. 
@@ -29,17 +35,24 @@ For part 1 of our challenge, you will need to create a **small React application
 
 Details and user stories are in the file: [task_1](task_1.md). This task should take you about 30 minutes to 1 hour to complete.
 
+<br>
+
 ## Challenge Part 2: Quiz
 
 In the second part of the IBF challenge, we're asking you to answer **3 out of 5** questions. Here, you're demonstrating:
-
 - You have theoretic knowledge in computer science
 - You can investigate the inner workings of an web app, e.g. for debugging
 - You can evaluate and form an opinion about a technology
 
 Details and question are in the file: [task_2](task_2.md). This task should take you about 30 to complete.
 
+
+<br>
+
 ---
+
+<br>
+
 
 ## Checklist
 
@@ -51,4 +64,4 @@ All done? Please make sure you completed everything by checking the list below:
 - [ ] Created a Github repository and push the finalized challenge. Share the repository with us when you apply (either by public link, or by adding `rschlaefli` and `mkllr888`).
 
 **Also, don't forget:**
-**- [ ] Filled out the application form on the [Joinus](https://uzh-bf.github.io/joinus/) page**
+- [ ] **Filled out the application form on the [Joinus](https://uzh-bf.github.io/joinus/) page**
