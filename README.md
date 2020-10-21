@@ -1,72 +1,54 @@
-# DBF Development Challenge - Overview
+# DBF Developer Challenge - Overview
 
-This repository contains the coding challenge used for web development jobs at the Department of Banking and Finance, University of Zurich. We think that it is fairer and more realistic to judge the capabilities of applicants by means of a small real-world task, rather than asking questions about technical topics.
+This repository contains a coding challenge used for the application process of web developers at the Department of Banking and Finance, University of Zurich. We think that it is fairer and more realistic to judge the capabilities of applicants with a small task, rather than asking questions about technical topics.
 
-If you would like to, or are preparing to, apply for a position, please read this document carefully and follow the checklist we have prepared in `CHECKLIST.md`.
+If you seek more information about us and what we work on at the DBF, check <https://uzh-bf.github.io/joinus/>!
 
-If you seek more information about us and what we work on at the DBF, please visit <https://uzh-bf.github.io/joinus/>.
+## Application process
 
-## Contents of the Challenge
+When you apply for a job at our department, this will be the process:
+1. Solve challenge part 1: Create a small React app to show your technical abilities :robot:
+2. Solve challenge part 1: Answer 3 out of 5 questions to prove your knowledge :pencil2:
+3. Send us the the results (of both parts) for a quick evaluation :outbox_tray:
+4. Everybody that successfully completes the challenge gets invited to a job interview :bell:
+5. If we feel like you fit in our team, we will hire you! :checkered_flag::moneybag:
 
-The DBF Development Challenge is split in two parts:
+---
 
-- A web development task that challenges your development and problem solving skills
-- A few questions that evaluate your knowledge of selected topics
+## Challenge Part 1: Web Development with React
 
-You need to complete both parts to finish the challenge.
+For part 1 of our challenge, you will need to create a **small React application** with basic Kanban board capabilities (like Trello). By solving this challenge, you're demonstrating:
 
-## Part 1: Web Development with React
+- You can work with `git` and use version control in your workflow.
+ - where possible, commit your work regularly
+- You can work with React and Javascript packages. 
+- You know the most important principles of Web Development
+- You write high-quality code.
+ - Ensure that your code is readable and well-structured.
+ - Write efficient and simple code and apply programming patterns / abstractions when necessary
 
-For part 1 of our challenge, you will need to create a small React application with basic Kanban board capabilities. More specifically, you should demonstrate that:
+Details and user stories are in the file: [task_1](task_1.md). This task should take you about 30 minutes to 1 hour to complete.
 
-- [ ] You can read and work based on predefined requirements.
-  - Your work needs to be based on the user stories we have defined and prioritized, see the Issues of this Github project.
-- [ ] You can work with `git` and consistently apply version control in your workflow.
-  - Ensure that you use proper and consistent commit messages and branch names, if applicable.
-- [ ] You can work with React and Javascript packages. You know the most important principles of React and Web Development and can write high-quality code.
-  - Ensure that your code is readable and well-structured.
-  - Ensure that you apply the proper abstractions to solve your problems.
+## Challenge Part 2: Quiz
 
-Your application must satisfy the following basic constraints:
+In the second part of the IBF challenge, we're asking you to answer **3 out of 5** questions. Here, you're demonstrating:
 
-- It must be based on `React` and initialized with `create-react-app`.
-- It must apply the `react-kanban` library for logic related to Kanban interactions. We recommend using the `uncontrolled` version of the board to save you a lot of boilerplate.
-- It must satisfy the acceptance criteria of all high-priority user stories (as defined below), plus one additional user story of your choosing. Any further work is optional, but we encourage you to invest some time into styling the application.
+- You have theoretic knowledge in computer science
+- You can investigate the inner workings of an web app, e.g. for debugging
+- You can evaluate and form an opinion about a technology
 
-Besides these basic requirements, you may use any libraries or tools you like. For example, you could apply libraries and frameworks like `Semantic UI` or `Material UI` to help with styling.
+Details and question are in the file: [task_2](task_2.md). This task should take you about 30 to complete.
 
-## Part 2: Questions
+---
 
-- what are two advantages and two disadvantages of using React?
-- look at Klicker: …
-- how is our xx page automatically deployed (which file is responsible?)
-- compare frameworks? …
-- where does the content of finwb index come from (iframe)? which api is data coming from?
+## Checklist
 
-### Q1: Advantages and Disadvantages of using React
+All done? Please make sure you completed everything by checking the list below:
+- [ ] Forked this repository
+- [ ] Created a new `create-react-app` in the `app` folder
+- [ ] Implemented all required user stories according to `task_1.md`
+- [ ] Answered 3 questions and saved the answers in `task_2.md`.
+- [ ] Created a Github repository and push the finalized challenge. Share the repository with us when you apply (either by public link, or by adding `rschlaefli` and `mkllr888`).
 
-**Question:** Name two advantages and two disadvantages of using React when developing a web application.
-
-**Response:** …
-
-**Why is it relevant:** Almost all of our web development projects at the DBF, especially new ones, are based on the React framework. As such, it is crucial to understand where the framework fits in the landscape, and what could be the challenges in using it.
-
-### Q2: Analyzing the Structure of an Application #1
-
-**Question:** Look at the repository of the KlickerUZH frontend (<https://github.com/uzh-bf/klicker-react>). Can you figure out what the `Feedback` component located in `klicker-react/src/components/feedbacks/Feedback.tsx` is used for? Please include a short explanation of how you came up with your answer.
-
-**Response:** …
-
-**Why is it relevant:** As you will inevitably work with some of our existing projects over time, it is important that you can understand the structure of an application, as well as use tools to help you with that task.
-
-### Q3: Analyzing the Structure of an Application #2
-
-**Question:** Look at the website of the “Finance Weiterbildung” (<https://www.finance-weiterbildung.uzh.ch>). Can you figure out what is special about the page structure? Hint: where is the main content of the page coming from?
-
-**Response:** …
-
-**Why is it relevant:** Not every application works the same way, and certain environments require special solutions. It is important to be flexible and able to adapt to the circumstances.
-
-### Q4: …
-
-### Q5: …
+**Also, don't forget:**
+**- [ ] Filled out the application form on the [Joinus](https://uzh-bf.github.io/joinus/) page**
