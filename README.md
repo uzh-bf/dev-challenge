@@ -1,20 +1,20 @@
 # DBF Developer Challenge - Overview
 
-This repository contains a coding challenge used for the application process of web developers at the Department of Banking and Finance, University of Zurich. We think that it is fairer and more realistic to judge the capabilities of applicants with a small task, rather than asking questions about technical topics.
+The DBF Developer Challenge is a coding challenge for applicants to web developer positions at the Department of Banking and Finance, University of Zurich. We think that it is fairer and more realistic to judge the capabilities of applicants with a small task, rather than asking theoretical questions about technical topics.
 
-If you seek more information about us and what we work on at the DBF, check <https://uzh-bf.github.io/joinus/>!
+If you seek more information about us and what we work on at the DBF, check out <https://uzh-bf.github.io/joinus/>!
 
 <br>
 
 ## Application process
 
-When you apply for a job at our department, this will be the process:
-1. Solve [challenge part 1](task_1.md): Create a small React app to show your technical abilities :robot:
-2. Solve [challenge part 2](task_2.md): Answer 3 out of 5 questions to prove your knowledge :pencil2:
-3. Send us the the results (of both parts) for a quick evaluation :outbox_tray:
-4. Everybody that successfully completes the challenge gets invited to a job interview :bell:
-5. If we feel like you fit in our team, we will hire you! :checkered_flag::moneybag:
+When you apply for a job at our department, you will:
 
+1. Solve [Challenge Part 1](task_1.md): Create a small React app to show your technical abilities :robot:
+2. Solve [Challenge Part 2](task_2.md): Answer 3 practically-oriented questions to prove your knowledge :pencil2:
+3. Send us the results of your challenge for a quick evaluation :outbox_tray:
+
+Everybody that completes the challenge with a reasonable standard (it does not have to be perfect) gets invited to a job interview. The challenge allows us to focus more on alignment of interests and your cultural fit rather than asking you a lot of technical questions :bell: However, we will most certainly talk to you about the challenge and your responses.
 
 <br>
 
@@ -22,32 +22,31 @@ When you apply for a job at our department, this will be the process:
 
 <br>
 
-
-
 ## Challenge Part 1: Web Development with React
 
-For part 1 of our challenge, you will need to create a **small React application** with basic Kanban board capabilities (like Trello). By solving this challenge, you're demonstrating:
-- You can work with `git` and use version control in your workflow.
-  - where possible, commit your work regularly
-- You can work with React and Javascript packages. 
-- You know the most important principles of Web Development
-- You write high-quality code.
-  - Ensure that your code is readable and well-structured.
-  - Write efficient and simple code and apply programming patterns / abstractions when necessary
+For the first part of the challenge, you will need to create a **small React application** with basic Kanban board capabilities (think of Trello). By solving this challenge, you demonstrate that:
 
-Details and user stories are in the file: [task_1](task_1.md). This task should take you about 30 minutes to 1 hour to complete.
+- You can work with `git` and apply version control in your workflow.
+  - You commit your work regularly and in clear increments.
+- You know the most important principles of Web Development.
+- You can work with React and other JavaScript libraries.
+- You write understandable and extendable code (i.e., high-quality).
+  - Your code is readable and well-structured.
+  - You write efficient and simple code and apply programming patterns and abstractions where sensible.
+
+Details and user stories can be found in [task_1](task_1.md). This task should take you between 30 minutes and 1 hour to complete.
 
 <br>
 
 ## Challenge Part 2: Quiz
 
-In the second part of the IBF challenge, we're asking you to answer **3 out of 5** questions. Here, you're demonstrating:
-- You have theoretic knowledge in computer science
-- You can investigate the inner workings of an web app, e.g. for debugging
-- You can evaluate and form an opinion about a technology
+In the second part of the challenge, we ask you to select and answer **3 out of 5** questions. With your responses, you demonstrate that:
 
-Details and question are in the file: [task_2](task_2.md). This task should take you about 30 to complete.
+- You have relevant practical knowledge about web development and computer science.
+- You can understand the structure of a web app and use an IDE to support you.
+- You can evaluate and form your own opinion about a technology/framework.
 
+Details and questions can be found in [task_2](task_2.md). This task should take you about 20 minutes to complete.
 
 <br>
 
@@ -55,15 +54,16 @@ Details and question are in the file: [task_2](task_2.md). This task should take
 
 <br>
 
-
 ## Checklist
 
-All done? Please make sure you completed everything by checking the list below:
-- [ ] Forked this repository
-- [ ] Created a new `create-react-app` in the `app` folder
-- [ ] Implemented the user stories according to `task_1.md`
-- [ ] Answered 3 questions and saved the answers in `task_2.md`.
-- [ ] Created a Github repository and push the finalized challenge. Share the repository with us when you apply (either by public link, or by adding `rschlaefli` and `mkllr888`).
+All done? Please make sure you have completed everything in our application checklist:
 
-**Also, don't forget:**
-- [ ] **Filled out the application form on the [Joinus](https://uzh-bf.github.io/joinus/) page**
+- [ ] Forked this repository.
+  - Create a private fork if you do not want to make your results publicly available.
+- [ ] Created a new `create-react-app` in the `app` folder.
+- [ ] Implemented the user stories according to `task_1.md`.
+- [ ] Answered 3 questions and saved the answers in `task_2.md`.
+- [ ] Created a GitHub repository and pushed all of your results.
+- [ ] Shared the link to your repository with us when applying.
+  - Add `rschlaefli` and `mkllr888`, if you do not want to make your results publicly available.
+- [ ] Filled out the application form on [Joinus](https://uzh-bf.github.io/joinus/).
