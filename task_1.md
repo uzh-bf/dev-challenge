@@ -23,5 +23,7 @@ Your application must satisfy the following basic constraints:
 
 - :exclamation: It must be based on `React` and initialized with `create-react-app`.
 - :exclamation: It must apply the `lourenci/react-kanban` library for logic related to Kanban interactions. We recommend using the `uncontrolled` version of the board to save you a lot of boilerplate (and time).
+  - Because we are using a new feature, use the command `npm install lourenci/react-kanban#render-custom-card-adder` to install the package directly from git 
+  - if this command doesn't work, make sure you have git cli installed on your machine
 - :exclamation: It must satisfy the acceptance criteria of all high-priority user stories, plus one additional user story of your choosing. Any further work is optional, but we encourage you to invest some time into styling the application.
 - :bulb: Besides these basic requirements, you may use any libraries or tools you like. For example, you could apply libraries and frameworks like `Semantic UI` or `Material UI` to help with styling.
