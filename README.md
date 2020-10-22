@@ -61,7 +61,7 @@ Details and question are in the file: [task_2](task_2.md). This task should take
 All done? Please make sure you completed everything by checking the list below:
 - [ ] Forked this repository
 - [ ] Created a new `create-react-app` in the `app` folder
-- [ ] Implemented all required user stories according to `task_1.md`
+- [ ] Implemented the user stories according to `task_1.md`
 - [ ] Answered 3 questions and saved the answers in `task_2.md`.
 - [ ] Created a Github repository and push the finalized challenge. Share the repository with us when you apply (either by public link, or by adding `rschlaefli` and `mkllr888`).
 
