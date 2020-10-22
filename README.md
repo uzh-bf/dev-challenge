@@ -4,11 +4,13 @@ This repository contains a coding challenge used for the application process of 
 
 If you seek more information about us and what we work on at the DBF, check <https://uzh-bf.github.io/joinus/>!
 
+<br>
+
 ## Application process
 
 When you apply for a job at our department, this will be the process:
-1. Solve challenge part 1: Create a small React app to show your technical abilities :robot:
-2. Solve challenge part 2: Answer 3 out of 5 questions to prove your knowledge :pencil2:
+1. Solve [challenge part 1](task_1.md): Create a small React app to show your technical abilities :robot:
+2. Solve [challenge part 2](task_2.md): Answer 3 out of 5 questions to prove your knowledge :pencil2:
 3. Send us the the results (of both parts) for a quick evaluation :outbox_tray:
 4. Everybody that successfully completes the challenge gets invited to a job interview :bell:
 5. If we feel like you fit in our team, we will hire you! :checkered_flag::moneybag:
@@ -26,12 +28,12 @@ When you apply for a job at our department, this will be the process:
 
 For part 1 of our challenge, you will need to create a **small React application** with basic Kanban board capabilities (like Trello). By solving this challenge, you're demonstrating:
 - You can work with `git` and use version control in your workflow.
- - where possible, commit your work regularly
+  - where possible, commit your work regularly
 - You can work with React and Javascript packages. 
 - You know the most important principles of Web Development
 - You write high-quality code.
- - Ensure that your code is readable and well-structured.
- - Write efficient and simple code and apply programming patterns / abstractions when necessary
+  - Ensure that your code is readable and well-structured.
+  - Write efficient and simple code and apply programming patterns / abstractions when necessary
 
 Details and user stories are in the file: [task_1](task_1.md). This task should take you about 30 minutes to 1 hour to complete.
 
