@@ -1,26 +1,27 @@
 # Challenge Part 1: Web Development with React
 
-## What to watch out for
+For part 1 of the challenge you will create a React WebApp by using the [create-react-app](https://create-react-app.dev/). The application should implement user stories according to the following chapters. It must implement all mandatory user stories as well as one additional user story from the compulsory-optional section.
+
+<br>
+
+## Mandatory User Stories
+
+- [User Story 1: Kanban Board](https://github.com/uzh-bf/challenge/issues/1)
+- [User Story 2: Task Cards](https://github.com/uzh-bf/challenge/issues/2)
+- [User Story 3: Adding Tasks](https://github.com/uzh-bf/challenge/issues/3)
+
+
+## Compulsory-Optional (Wahlpflicht-) User Stories
+- [User Story 4: Removing Tasks](https://github.com/uzh-bf/challenge/issues/4)
+- [User Story 5: Startpage](https://github.com/uzh-bf/challenge/issues/5)
+
+<br>
+
+## Requirements, Constraints, Ideas
 
 Your application must satisfy the following basic constraints:
 
-- It must be based on `React` and initialized with `create-react-app`.
-- It must apply the `react-kanban` library for logic related to Kanban interactions. We recommend using the `uncontrolled` version of the board to save you a lot of boilerplate.
-- It must satisfy the acceptance criteria of all high-priority user stories (as defined below), plus one additional user story of your choosing. Any further work is optional, but we encourage you to invest some time into styling the application.
-
-Besides these basic requirements, you may use any libraries or tools you like. For example, you could apply libraries and frameworks like `Semantic UI` or `Material UI` to help with styling.
-
-## Checklist
-- [ ] Fork this repository by clicking "Use this template" on the page https://github.com/uzh-bf/challenge. (Alternatively, clone the repository and create a repository later).
-- [ ] Create a new React app in the folder `/app`. Use `create-react-app` (https://create-react-app.dev/).
-- [ ] Implement the user stories provided in the next chapters.
-  - if you feel motivated, we included a few bonus user stories!
-- [ ] Respond to three questions from the set of questions we provide. Store and commit your responses in `QUESTIONS.md`.
-- [ ] Create a Github repository and push the finalized challenge. Share the repository with us when you apply (either by public link, or by adding `rschlaefli` and `mkllr888`).
-
-## Required User Stories
-TODO
-
-## Bonus User Stories
-TODO
-
+- :exclamation: It must be based on `React` and initialized with `create-react-app`.
+- :exclamation: It must apply the `lourenci/react-kanban` library for logic related to Kanban interactions. We recommend using the `uncontrolled` version of the board to save you a lot of boilerplate.
+- :exclamation: It must satisfy the acceptance criteria of all high-priority user stories, plus one additional user story of your choosing. Any further work is optional, but we encourage you to invest some time into styling the application.
+- :bulb: Besides these basic requirements, you may use any libraries or tools you like. For example, you could apply libraries and frameworks like `Semantic UI` or `Material UI` to help with styling.
