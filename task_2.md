@@ -36,7 +36,7 @@ _Why is it relevant:_ Almost all our apps and websites are built on a layered ar
 
 _Why is it relevant:_ CI/CD has many advantages, which is why we are using it wherever possible, be it with GitHub Actions or GitLab CI. It is important to be familiar with the topic, as it can greatly improve your efficiency.
 
-## Q5: Programming languages
+## Q5: Programming Languages
 
 **Question:** What has been your favorite programming language / framework so far? Why do you like it and how does it compare to other technologies? What was the hardest challenge you have faced with that specific technology?
 
