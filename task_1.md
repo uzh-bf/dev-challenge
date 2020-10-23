@@ -9,11 +9,13 @@ For the first part of the challenge you will create a React App based on [create
 - [User Story 1: Kanban Board](https://github.com/uzh-bf/challenge/issues/1)
 - [User Story 2: Task Cards](https://github.com/uzh-bf/challenge/issues/2)
 - [User Story 3: Adding Tasks](https://github.com/uzh-bf/challenge/issues/3)
+- [User Story 4: Homepage](https://github.com/uzh-bf/challenge/issues/5)
 
 ## Additional User Stories
 
-- [User Story 4: Removing Tasks](https://github.com/uzh-bf/challenge/issues/4)
-- [User Story 5: Startpage](https://github.com/uzh-bf/challenge/issues/5)
+- [User Story 5: Continuous Deployment to Heroku](https://github.com/uzh-bf/challenge/issues/5)
+- [User Story 6: TypeScript](...)
+- [User Story 7: Google Analytics](...)
 
 <br>
 
