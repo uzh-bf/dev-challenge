@@ -6,16 +6,16 @@ For the first part of the challenge you will create a React App based on [create
 
 ## Required User Stories
 
-- [User Story 1: Kanban Board](https://github.com/uzh-bf/challenge/issues/1)
-- [User Story 2: Task Cards](https://github.com/uzh-bf/challenge/issues/2)
-- [User Story 3: Adding Tasks](https://github.com/uzh-bf/challenge/issues/3)
-- [User Story 4: Homepage](https://github.com/uzh-bf/challenge/issues/5)
+- [User Story 1: Kanban Board](https://github.com/uzh-bf/dev-challenge/issues/1)
+- [User Story 2: Task Cards](https://github.com/uzh-bf/dev-challenge/issues/2)
+- [User Story 3: Adding Tasks](https://github.com/uzh-bf/dev-challenge/issues/3)
+- [User Story 4: Homepage](https://github.com/uzh-bf/dev-challenge/issues/4)
 
 ## Additional User Stories
 
-- [User Story 5: Continuous Deployment to Heroku](https://github.com/uzh-bf/challenge/issues/5)
-- [User Story 6: TypeScript](...)
-- [User Story 7: Google Analytics](...)
+- [User Story 5: Deployment to Heroku with GitHub Actions](https://github.com/uzh-bf/dev-challenge/issues/5)
+- [User Story 6: Development with TypeScript](https://github.com/uzh-bf/dev-challenge/issues/6)
+- [User Story 7: Tracking with Google Analytics](https://github.com/uzh-bf/dev-challenge/issues/7)
 
 <br>
 
