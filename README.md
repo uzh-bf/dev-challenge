@@ -66,4 +66,3 @@ All done? Please make sure you have completed everything in our application chec
 - [ ] Created a GitHub repository and pushed all of your results.
 - [ ] Shared the link to your repository with us when applying.
   - Add `rschlaefli` and `mkllr888`, if you do not want to make your results publicly available.
-- [ ] Filled out the application form on [Joinus](https://uzh-bf.github.io/joinus/).
