@@ -34,7 +34,7 @@ For the first part of the challenge, you will need to create a **small React app
   - Your code is readable and well-structured.
   - You write efficient and simple code and apply programming patterns and abstractions where sensible.
 
-Details and user stories can be found in [task_1](task_1.md). This task should take you between 30 minutes and 1 hour to complete.
+Details and user stories can be found in [task_1](task_1.md). This task should take you about 1 hour to complete.
 
 <br>
 
