@@ -14,7 +14,7 @@ When you apply for a job at our department, you will:
 2. Solve [Challenge Part 2](task_2.md): Answer 3 practically-oriented questions to prove your knowledge :pencil2:
 3. Send us the results of your challenge for a quick evaluation :outbox_tray:
 
-Everybody that completes the challenge with a reasonable standard (it does not have to be perfect) gets invited to a job interview. The challenge allows us to focus more on alignment of interests and your cultural fit rather than asking you a lot of technical questions :bell: However, we will most certainly talk to you about the challenge and your responses.
+Everybody that completes the challenge with a good standard (it does not have to be perfect) gets invited to a job interview. The challenge allows us to focus more on alignment of interests and your cultural fit rather than asking you a lot of technical questions :bell: However, we will most certainly talk to you about the challenge and your responses.
 
 <br>
 
