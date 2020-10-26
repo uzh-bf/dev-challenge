@@ -58,6 +58,7 @@ Details and questions can be found in [task_2](task_2.md). This task should take
 
 All done? Please make sure you have completed everything in our application checklist:
 
+- [ ] Filled out the application form on [joinus](https://uzh-bf.github.io/joinus/)
 - [ ] Forked this repository.
   - Create a private fork if you do not want to make your results publicly available.
 - [ ] Created a new `create-react-app` in the `app` folder.
