@@ -1,6 +1,6 @@
 # Challenge Part 1: Web Development with React
 
-For the first part of the challenge you will create a React App based on [create-react-app](https://create-react-app.dev/). The application should be based on the [user stories](https://github.com/uzh-bf/dev-challenge/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) defined below. It must implement *all required user stories* as well as *one user story from the additional section*.
+For the first part of the challenge you will create a React App based on [create-react-app](https://create-react-app.dev/). The application should be based on the [user stories](https://github.com/uzh-bf/dev-challenge/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) defined below. It must implement **all required user stories** as well as **one user story from the additional section**.
 
 <br>
 
