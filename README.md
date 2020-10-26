@@ -4,6 +4,8 @@ The DBF Developer Challenge is a coding challenge for applicants to web develope
 
 If you seek more information about us and what we work on at the DBF, check out <https://uzh-bf.github.io/joinus/>!
 
+*Remember: It is okay to use Google to complete the challenge, you don't need to know everything by heart!*
+
 <br>
 
 ## Application process
@@ -24,7 +26,7 @@ Everybody that completes the challenge with a good standard (it does not have to
 
 ## Challenge Part 1: Web Development with React
 
-For the first part of the challenge, you will need to create a **small React application** with basic Kanban board capabilities (think of Trello). By solving this challenge, you demonstrate that:
+For the first part of the challenge, you will need to create a **small React application** with basic Kanban board capabilities (maybe you know [Trello](https://trello.com/b/KaRKUPfD/demo-project)). By solving this challenge, you demonstrate that:
 
 - You can work with `git` and apply version control in your workflow.
   - You commit your work regularly and in clear increments.
