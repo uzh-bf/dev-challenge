@@ -6,40 +6,87 @@ import {Header} from "semantic-ui-react";
 
 /**
  * Initial Board
- * @type {{columns: [{cards: [{description: string, id: number, title: string}], id: number, title: string}, {cards: [{description: string, id: number, title: string}], id: number, title: string}, {cards: [{description: string, id: number, title: string}], id: number, title: string}]}}
+ * @type {{columns: [{cards: [{due_date: string, description: string, id: number, assignee: string, title: string, priority: string}, {due_date: string, description: string, id: number, assignee: string, title: string, priority: string}, {due_date: string, description: string, id: number, assignee: string, title: string, priority: string}], id: number, title: string}, {cards: [{due_date: string, description: string, id: number, assignee: string, title: string, priority: string}], id: number, title: string}, {cards: [{due_date: string, description: string, id: number, assignee: string, title: string, priority: string}], id: number, title: string}, {cards: [{due_date: string, description: string, id: number, assignee: string, title: string, priority: string}, {due_date: string, description: string, id: number, assignee: string, title: string, priority: string}], id: number, title: string}]}}
  */
 const board = {
     columns: [
         {
             id: 1,
-            title: 'Backlog',
+            title: "Backlog",
             cards: [
                 {
                     id: 1,
-                    title: 'Add card',
-                    description: 'Add capability to add a card in a column'
+                    title: "Task1",
+                    description: "Describtion1",
+                    assignee: "Philip Flury",
+                    priority: "HIGH",
+                    due_date: "2020-10-17"
+                },
+                {
+                    id: 2,
+                    title: "Task2",
+                    description: "Description2",
+                    assignee: "Philip Flury",
+                    priority: "HIGH",
+                    due_date: "2020-10-17"
+                },
+                {
+                    id: 3,
+                    title: "Task3",
+                    description: "Description3",
+                    assignee: "Max Muster",
+                    priority: "HIGH",
+                    due_date: "2020-10-17"
                 },
             ]
         },
         {
             id: 2,
-            title: 'In Progress',
+            title: "In Progress",
             cards: [
                 {
-                    id: 2,
-                    title: 'Add card',
-                    description: 'Add capability to add a card in a column'
+                    id: 4,
+                    title: "Task4",
+                    description: "Description4",
+                    assignee: "Philip Flury",
+                    priority: "HIGH",
+                    due_date: "2020-10-17"
                 },
             ]
         },
         {
             id: 3,
-            title: 'Done',
+            title: "Done",
             cards: [
                 {
-                    id: 3,
-                    title: 'Drag-n-drop support',
-                    description: 'Move a card between the columns'
+                    id: 5,
+                    title: "Task5",
+                    description: "Description5",
+                    assignee: "Max Muster",
+                    priority: "HIGH",
+                    due_date: "2020-10-17"
+                },
+            ]
+        },
+        {
+            id: 4,
+            title: "Production",
+            cards: [
+                {
+                    id: 6,
+                    title: "Task6",
+                    description: "Description6",
+                    assignee: "Max Muster",
+                    priority: "HIGH",
+                    due_date: "2020-10-17"
+                },
+                {
+                    id: 7,
+                    title: "Task7",
+                    description: "Description7",
+                    assignee: "Philip Flury",
+                    priority: "HIGH",
+                    due_date: "2020-10-17"
                 },
             ]
         }
