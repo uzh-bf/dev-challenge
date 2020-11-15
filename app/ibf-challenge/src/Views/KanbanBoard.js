@@ -2,8 +2,9 @@ import Board from '@lourenci/react-kanban'
 import '@lourenci/react-kanban/dist/styles.css'
 import "../index.css";
 import React from "react";
-import {Header} from "semantic-ui-react";
+import {Header, Segment, Button} from "semantic-ui-react";
 import CustomCard from "../Components/CustomCard";
+import { Link } from "react-router-dom";
 
 /**
  * Initial Board
@@ -79,22 +80,32 @@ const board = {
  */
 function KanbanBoard() {
     return (
-        <Board
-            initialBoard={board} // Ensures uncontrolled Board
-            renderColumnHeader={({ title, cards }) => ( // Custom Header that displays amount of cards in column
-                <Header as='h3'>
-                    {`${title}: ${cards.length}`}
-                </Header>
-            )}
-            renderCard={({ title, description, assignee, priority, due_date}) => ( // Custom Card Component
-                <CustomCard title={title}
-                            description={description}
-                            assignee={assignee}
-                            priority={priority}
-                            due_date={due_date}
-                />
-            )}
-        />
+        <Segment>
+            <div className="App">
+                <Header as='h1'>Kanban Board</Header>
+                <Link to="/homepage">
+                    <Button>
+                        Back to Homepage
+                    </Button>
+                </Link>
+            </div>
+            <Board
+                initialBoard={board}
+                renderColumnHeader={({ title, cards }) => (
+                    <Header as='h3'>
+                        {`${title}: ${cards.length}`}
+                    </Header>
+                )}
+                renderCard={({ title, description, assignee, priority, due_date}) => (
+                    <CustomCard title={title}
+                                description={description}
+                                assignee={assignee}
+                                priority={priority}
+                                due_date={due_date}
+                    />
+                )}
+            />
+        </Segment>
     );
 }
 
