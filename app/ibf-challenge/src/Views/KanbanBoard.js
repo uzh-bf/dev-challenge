@@ -3,6 +3,7 @@ import '@lourenci/react-kanban/dist/styles.css'
 import "../index.css";
 import React from "react";
 import {Header} from "semantic-ui-react";
+import CustomCard from "../Components/CustomCard";
 
 /**
  * Initial Board
@@ -67,28 +68,6 @@ const board = {
                     due_date: "2020-10-17"
                 },
             ]
-        },
-        {
-            id: 4,
-            title: "Production",
-            cards: [
-                {
-                    id: 6,
-                    title: "Task6",
-                    description: "Description6",
-                    assignee: "Max Muster",
-                    priority: "HIGH",
-                    due_date: "2020-10-17"
-                },
-                {
-                    id: 7,
-                    title: "Task7",
-                    description: "Description7",
-                    assignee: "Philip Flury",
-                    priority: "HIGH",
-                    due_date: "2020-10-17"
-                },
-            ]
         }
     ]
 };
@@ -106,6 +85,14 @@ function KanbanBoard() {
                 <Header as='h3'>
                     {`${title}: ${cards.length}`}
                 </Header>
+            )}
+            renderCard={({ title, description, assignee, priority, due_date}) => ( // Custom Card Component
+                <CustomCard title={title}
+                            description={description}
+                            assignee={assignee}
+                            priority={priority}
+                            due_date={due_date}
+                />
             )}
         />
     );
