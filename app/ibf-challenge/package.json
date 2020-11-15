@@ -37,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "@lourenci/react-kanban": "^2.1.0",
+    "@lourenci/react-kanban": "git://github.com/uzh-bf/react-kanban.git#render-custom-card-adder",
     "react-https-redirect": "^1.1.0",
     "react-router-dom": "^5.2.0",
     "semantic-ui-react": "^2.0.1"

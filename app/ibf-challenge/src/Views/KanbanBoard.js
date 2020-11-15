@@ -4,6 +4,7 @@ import "../index.css";
 import React from "react";
 import {Header, Segment, Button} from "semantic-ui-react";
 import CustomCard from "../Components/CustomCard";
+import CustomCardAdder from "../Components/CustomCardAdder";
 import { Link } from "react-router-dom";
 
 /**
@@ -74,6 +75,18 @@ const board = {
 };
 
 /**
+ * When the user adds a new card through the default card adder template, this callback will be called
+ * passing the updated board and the new card.
+ * @param newCard
+ */
+function onCardNew (newCard) {
+    return {
+        id: Date.now,
+        ...newCard
+    }
+}
+
+/**
  * Kanban Board Component
  * @returns {*}
  * @constructor
@@ -91,6 +104,10 @@ function KanbanBoard() {
             </div>
             <Board
                 initialBoard={board}
+                allowAddCard={{ on: "top" }}
+                onNewCardConfirm={onCardNew}
+                renderCardAdder={CustomCardAdder}
+                onCardNew={console.log}
                 renderColumnHeader={({ title, cards }) => (
                     <Header as='h3'>
                         {`${title}: ${cards.length}`}
