@@ -2,8 +2,12 @@ import Board from '@lourenci/react-kanban'
 import '@lourenci/react-kanban/dist/styles.css'
 import "../index.css";
 import React from "react";
+import {Header} from "semantic-ui-react";
 
-
+/**
+ * Initial Board
+ * @type {{columns: [{cards: [{description: string, id: number, title: string}], id: number, title: string}, {cards: [{description: string, id: number, title: string}], id: number, title: string}, {cards: [{description: string, id: number, title: string}], id: number, title: string}]}}
+ */
 const board = {
     columns: [
         {
@@ -42,9 +46,21 @@ const board = {
     ]
 };
 
+/**
+ * Kanban Board Component
+ * @returns {*}
+ * @constructor
+ */
 function KanbanBoard() {
     return (
-        <Board initialBoard={board} />
+        <Board
+            initialBoard={board} // Ensures uncontrolled Board
+            renderColumnHeader={({ title, cards }) => ( // Custom Header that displays amount of cards in column
+                <Header as='h3'>
+                    {`${title}: ${cards.length}`}
+                </Header>
+            )}
+        />
     );
 }
 
