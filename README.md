@@ -2,7 +2,7 @@
 
 The DBF Developer Challenge is a coding challenge for applicants to web developer positions at the Department of Banking and Finance, University of Zurich. We think that it is fairer and more realistic to judge the capabilities of applicants with a small task, rather than asking theoretical questions about technical topics.
 
-If you seek more information about us and what we work on at the DBF, check out <https://uzh-bf.github.io/joinus/>!
+If you seek more information about us and what we work on at the DBF, check out <https://joinus.vercel.app/>!
 
 *Remember: It is okay to use Google to complete the challenge, you don't need to know everything by heart!*
 
@@ -60,7 +60,7 @@ Details and questions can be found in [task_2](task_2.md). This task should take
 
 All done? Please make sure you have completed everything in our application checklist:
 
-- [ ] Filled out the application form on [joinus](https://uzh-bf.github.io/joinus/).
+- [ ] Filled out the application form on [joinus](https://joinus.vercel.app/).
 - [ ] Forked this repository.
   - Create a private fork if you do not want to make your results publicly available.
 - [ ] Created a new `create-react-app` in the `app` folder.
