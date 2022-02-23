@@ -14,7 +14,7 @@ _Why is it relevant:_ Almost all of our web development projects at the DBF, esp
 
 ## Q2: Analyzing the Structure of an Application
 
-**Question:** Look at the repository of the KlickerUZH frontend (<https://github.com/uzh-bf/klicker-react>). Can you figure out what the `Feedback` component located in `klicker-react/src/components/feedbacks/Feedback.tsx` is used for? Please include a short explanation of how you came up with your answer.
+**Question:** Look at the repository of the KlickerUZH frontend (<https://github.com/uzh-bf/klicker-uzh>). Can you figure out what the `Feedback` component located in `https://github.com/uzh-bf/klicker-uzh/blob/dev/apps/frontend/src/components/interaction/feedbacks/Feedback.tsx` is used for? Please include a short explanation of how you came up with your answer.
 
 **Response:** Write answer here.
 
